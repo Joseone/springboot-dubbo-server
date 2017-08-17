@@ -1,7 +1,6 @@
 package com.qianmi.uc.dubbo.domain;
 
 import lombok.*;
-import org.hibernate.annotations.Proxy;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -25,7 +24,6 @@ import java.util.Date;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@Proxy(lazy = false)
 public class Store implements Serializable{
 
     private static final long serialVersionUID = -8916549260515601682L;
